@@ -14,6 +14,8 @@
 		83884C0F1BEC303C0099B017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83884C0D1BEC303C0099B017 /* LaunchScreen.storyboard */; };
 		83884C1A1BEC303C0099B017 /* LemonRushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83884C191BEC303C0099B017 /* LemonRushTests.swift */; };
 		83884C251BEC303D0099B017 /* LemonRushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83884C241BEC303D0099B017 /* LemonRushUITests.swift */; };
+		83884C331BEC304D0099B017 /* ProductBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83884C321BEC304D0099B017 /* ProductBar.swift */; };
+		B32A3E1C29414F446063D843 /* Pods_LemonRush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D879EE6DAB3D8B881CF2CAB /* Pods_LemonRush.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D879EE6DAB3D8B881CF2CAB /* Pods_LemonRush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LemonRush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F0859123C11EA35F8EFA72 /* Pods-LemonRush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonRush.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemonRush/Pods-LemonRush.debug.xcconfig"; sourceTree = "<group>"; };
 		83884C011BEC303C0099B017 /* LemonRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83884C041BEC303C0099B017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83884C061BEC303C0099B017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		83884C201BEC303D0099B017 /* LemonRushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonRushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83884C241BEC303D0099B017 /* LemonRushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonRushUITests.swift; sourceTree = "<group>"; };
 		83884C261BEC303D0099B017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83884C321BEC304D0099B017 /* ProductBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductBar.swift; sourceTree = "<group>"; };
+		AD43FEB1725B8D12B6D7AB76 /* Pods-LemonRush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemonRush.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemonRush/Pods-LemonRush.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32A3E1C29414F446063D843 /* Pods_LemonRush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		298A8B32467C87EB1F05DE78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F0859123C11EA35F8EFA72 /* Pods-LemonRush.debug.xcconfig */,
+				AD43FEB1725B8D12B6D7AB76 /* Pods-LemonRush.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		83884BF81BEC303C0099B017 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				83884C181BEC303C0099B017 /* LemonRushTests */,
 				83884C231BEC303D0099B017 /* LemonRushUITests */,
 				83884C021BEC303C0099B017 /* Products */,
+				298A8B32467C87EB1F05DE78 /* Pods */,
+				B963DFE469B0B75D2F9E047F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +117,7 @@
 			children = (
 				83884C041BEC303C0099B017 /* AppDelegate.swift */,
 				83884C061BEC303C0099B017 /* ViewController.swift */,
+				83884C321BEC304D0099B017 /* ProductBar.swift */,
 				83884C081BEC303C0099B017 /* Main.storyboard */,
 				83884C0B1BEC303C0099B017 /* Assets.xcassets */,
 				83884C0D1BEC303C0099B017 /* LaunchScreen.storyboard */,
@@ -125,6 +144,14 @@
 			path = LemonRushUITests;
 			sourceTree = "<group>";
 		};
+		B963DFE469B0B75D2F9E047F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D879EE6DAB3D8B881CF2CAB /* Pods_LemonRush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83884C291BEC303D0099B017 /* Build configuration list for PBXNativeTarget "LemonRush" */;
 			buildPhases = (
+				263694DA66735CB1C27EAECC /* Check Pods Manifest.lock */,
 				83884BFD1BEC303C0099B017 /* Sources */,
 				83884BFE1BEC303C0099B017 /* Frameworks */,
 				83884BFF1BEC303C0099B017 /* Resources */,
+				F75F3A56070852DDF551CBDE /* Embed Pods Frameworks */,
+				B61D1C96E1FA425B7EA9C33E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,11 +281,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		263694DA66735CB1C27EAECC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B61D1C96E1FA425B7EA9C33E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemonRush/Pods-LemonRush-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75F3A56070852DDF551CBDE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemonRush/Pods-LemonRush-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83884BFD1BEC303C0099B017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83884C331BEC304D0099B017 /* ProductBar.swift in Sources */,
 				83884C071BEC303C0099B017 /* ViewController.swift in Sources */,
 				83884C051BEC303C0099B017 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +476,7 @@
 		};
 		83884C2A1BEC303D0099B017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F0859123C11EA35F8EFA72 /* Pods-LemonRush.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LemonRush/Info.plist;
@@ -408,6 +488,7 @@
 		};
 		83884C2B1BEC303D0099B017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD43FEB1725B8D12B6D7AB76 /* Pods-LemonRush.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LemonRush/Info.plist;
@@ -484,6 +565,7 @@
 				83884C2B1BEC303D0099B017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83884C2C1BEC303D0099B017 /* Build configuration list for PBXNativeTarget "LemonRushTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				83884C2E1BEC303D0099B017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83884C2F1BEC303D0099B017 /* Build configuration list for PBXNativeTarget "LemonRushUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				83884C311BEC303D0099B017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
